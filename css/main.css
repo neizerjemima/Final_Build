@@ -83,12 +83,13 @@
     width: 150px;
     height: 150px;
     
-    background-image: url('../images/Worlcup_sprite.jpg');
+    background-image: url('../images/Worldcup_sprite.jpg');
   }
   
-  #poland { background-position: -180px 0; }
-  #sweden { background-position: -300px 0; }
-  #italy { background-position: -450px 0; }
+  #poland { background-position: -150px 0; }
+  #portugal { background-position: -300px 0; }
+  #sweden { background-position: -450px 0; }
+  #italy { background-position: -600px 0; }
 
   
   .sprite:hover { background-position-y: -150px !important; }
@@ -119,7 +120,7 @@
     left: 0;
   
     background-color: rgba(0, 0, 0, 0.85);
-    background-image: url('../images/Cap_LB_Bg.png');
+    background-image: url('../images/Flag_of_Portugal.webp');
     background-repeat: no-repeat;
   
     background-size: 55vh; /* 55% of the viewport height */
@@ -128,7 +129,22 @@
     display: none;
   }
   
-  #lightbox2 { background-image: url('../images/Thor_LB_Bg.png'); }
+  #lightbox2 { background-image: url('../images/Flag_of_Poland.png'); }
+  
+  .lightbox_close {
+    position: relative;
+    top: 20px;
+    left: 95%;
+  
+    color: white;
+    font-size: 3em;
+  
+    text-decoration: none;
+  
+    font-weight: bolder;
+  }
+
+  #lightbox2 { background-image: url('../images/Flag_of_Sweden.png'); }
   
   .lightbox_close {
     position: relative;
@@ -143,6 +159,20 @@
     font-weight: bolder;
   }
   
+  #lightbox4 { background-image: url('../images/Italy.jpg'); }
+  
+  .lightbox_close {
+    position: relative;
+    top: 20px;
+    left: 95%;
+  
+    color: white;
+    font-size: 3em;
+  
+    text-decoration: none;
+  
+    font-weight: bolder;
+  }
   .lightbox_close:hover { opacity: 0.5; color: red; }
   
   .lightbox article {
