@@ -13,7 +13,7 @@
   
   body { 
   font-family: sans-serif;
-  background-color: black;
+  background-color: rgb(253, 0, 0);
   color: white;
   
   background-image: url("../images/background.webp");
@@ -83,14 +83,13 @@
     width: 150px;
     height: 150px;
     
-    background-image: url('../images/marvelSprites.jpg');
+    background-image: url('../images/Worlcup_sprite.jpg');
   }
   
-  #carol { background-position: -150px 0; }
-  #clint { background-position: -300px 0; }
-  #hulk { background-position: -450px 0; }
-  #thor { background-position: -600px 0; }
-  #widow { background-position: -750px 0; }
+  #poland { background-position: -180px 0; }
+  #sweden { background-position: -300px 0; }
+  #italy { background-position: -450px 0; }
+
   
   .sprite:hover { background-position-y: -150px !important; }
   
